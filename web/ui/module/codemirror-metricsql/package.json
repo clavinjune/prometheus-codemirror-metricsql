@@ -1,6 +1,6 @@
 {
   "name": "@clavinjune/codemirror-metricsql",
-  "version": "0.0.1-dev.3007240001",
+  "version": "0.0.1-dev.1911250001",
   "description": "a CodeMirror mode for the MetricsQL language",
   "types": "dist/esm/index.d.ts",
   "module": "dist/esm/index.js",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/clavinjune/prometheus-codemirror-metricsql/blob/main/web/ui/module/codemirror-metricsql/README.md",
   "dependencies": {
-    "@clavinjune/lezer-metricsql": "0.0.1-dev.3007240001",
+    "@clavinjune/lezer-metricsql": "0.0.1-dev.1911250001",
     "lru-cache": "^7.18.3"
   },
   "devDependencies": {
@@ -44,7 +44,8 @@
     "@lezer/highlight": "^1.1.6",
     "@lezer/lr": "^1.3.6",
     "isomorphic-fetch": "^3.0.0",
-    "nock": "^13.3.1"
+    "nock": "^13.3.1",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "@codemirror/autocomplete": "^6.7.1",

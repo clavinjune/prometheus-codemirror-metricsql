@@ -261,7 +261,8 @@ export class Parser {
         aggregateOp.type.id === Sum2 ||
         aggregateOp.type.id === Zscore
     ) {
-      if (params.length != 1) {
+      if (params.length <= 0) {
+        // https://github.com/VictoriaMetrics/VictoriaMetrics/blob/e6139be8ba96ee251fae74d7c11977c2962742bc/docs/victoriametrics/MetricsQL.md?plain=1#L91
         this.addDiagnostic(node, 'unable to find the parameter for the expression');
         return;
       }

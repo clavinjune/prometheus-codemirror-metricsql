@@ -1,6 +1,6 @@
 {
   "name": "@clavinjune/lezer-metricsql",
-  "version": "0.0.1-dev.3007240001",
+  "version": "0.0.1-dev.1911250001",
   "description": "lezer-based MetricsQL grammar",
   "main": "dist/index.cjs",
   "type": "module",
@@ -10,7 +10,7 @@
   },
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "author": "Clavin June <juneardoc@gmail.com>",
+  "author": "clavin june <juneardoc@gmail.com>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -32,8 +32,9 @@
   },
   "devDependencies": {
     "@lezer/generator": "^1.2.3",
-    "@lezer/highlight": "^1.1.6",
-    "@lezer/lr": "^1.3.6"
+    "@lezer/highlight": "^1.2.3",
+    "@lezer/lr": "^1.4.3",
+    "@rollup/plugin-node-resolve": "^16.0.3"
   },
   "peerDependencies": {
     "@lezer/highlight": "^1.1.6",
